@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    margin: 5%;
+    background-color: #dddddd;
+} 
+.tema:hover {
+    color: white;
+    background-color: blue;
+}
+
+.active:hover {
+    color: white;
+    background-color: blue;
+}
+
+section{
+    margin-top: 2%;
+    text-align: justify; 
+}
+
+.nav{
+    margin-top: 2%;
+}
+
+img{
+    margin-top: 2%;
+    text-align: center;
+}
+
+hr{
+    color: black; 
+}
+
+#accordion{
+    margin-top: 2%;
+}

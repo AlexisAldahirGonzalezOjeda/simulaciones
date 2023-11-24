@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <hr>
+        <h1>Movimiento de un proyectil</h1>
+        <hr>
+    </header>
+    <nav class="nav nav-pills nav-justified">
+        <a class="nav-item nav-link tema" href="index.html">Inicio</a>
+        <a class="nav-item nav-link tema" href="tema1.html">Tema Semana 1</a>
+        <a class="nav-item nav-link tema" href="tema2.html">Tema Semana 2</a>
+        <a class="nav-item nav-link tema active" href="tema3.html">Tema Semana 3</a> 
+    </nav>
+
+
+    <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Introducción 
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                <section>
+                    El movimiento de un proyectil es un movimiento en dos dimensiones. Para entenderlo mejor, consideremos el movimiento conocido que sigue una pelota cuando la pateamos, horizontalmente avanza cierta distancia respecto al punto de partida, y verticalmente sube hasta cierta distancia y luego cae debido a la aceleración hacia abajo de la gravedad.
+                </section>
+                <img src="tema3.png">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Actividades
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+                <section>
+                    <ol>
+                        <li>Lea detenidamente el texto introductorio al tema.</li> 
+                        <li>Siga las instrucciones del manejo de la simulación de movimiento de proyectiles.</li>
+                        <li>Realize los ejercicios propuestos.</li>
+                        <li>Tome nota de los resultados.</li>
+                    </ol>  
+                </section>
+            </div>
+          </div>
+        </div> 
+        <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Simulación Phet
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                <iframe src="https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_all.html?locale=es" title="description" height="500px" width="500px"></iframe>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      
+      
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    
+</body>
+</html>
